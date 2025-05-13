@@ -1,0 +1,329 @@
+---
+title: "Challenges for secondary analysis of existing large scale quantitative datasets for researching older migrants"
+authors:
+  - name: "Hategekimana Vestin" 
+    affiliation: "University of Geneva"
+    email: "vestin.hategekimana@unige.ch"
+  - name: "Ravazzini Laura"
+    affiliation: "University of Neuchâtel"
+    email: "laura.ravazzini@unine.ch"
+subtitle: https://cyuhat.github.io/presentation_valencia/#/title-slide
+format: 
+  clean-revealjs:
+    transition: slide
+    logo: logo.png
+  pptx: default
+  docx: default
+bibliography: valencia.bib
+nocite: |
+  @*
+---
+
+# Analysis of 3 secondary datasets
+
+# Why older migrants?
+
+## Introduction
+
+**Migration Studies**
+
+-   **Field continuously expanding** with extensive data and advanced analytical methods.
+-   Focus predominantly on **working-age migrants**.
+
+**Gap in Research**
+
+-   **Elderly migrants** are an **underrepresented group** in migration studies.
+-   Current research **overlooks** important **dynamics specific to older** age migration.
+
+## Why eldery migrants?
+
+**Changing Dynamics in Retirement**
+
+-   **Increased life expectancies** and advancements in technology and **transportation**.
+    -   **Greater opportunities for international mobility among retirees**.
+
+**Implications of Mobility in Older Age**
+
+-   Potential for more **geographically dispersed** family units.
+-   Enhanced global **connectivity** and extensive travel opportunities.
+
+## Goal {.scrollable}
+
+### Compare three datasets from Switzerland:
+
+1.  Migration Mobility Survey (MMS)
+2.  Transnational Ageing Survey (TAS)
+3.  TransAge
+
+### Seven topics:
+
+1.  Life course
+2.  Vulnerability
+3.  Integration
+4.  Mobility
+5.  Family
+6.  Transnationalism
+7.  Health
+8.  COVID-19
+
+## Why Switzerland?
+
+#### Switzerland offers an interesting context:
+
+-   **High proportion of the migrant population**
+    -   31% in 2022 (OFS, 2023)
+-   **High proportion of older individual among migrants**
+    -   28.7% aged 55 y/o and over in 2021 (OFS, 2022)
+-   **High proportion of older Swiss living abroad**
+    -   22.5% aged 65 y/o and over in 2020 (OFS, 2023)
+-   **Availability of rich datasets**
+    -   MMS / TAS / TransAge
+    -   Other longitudinal studies / Register
+
+## Migration Mobility Survey (MMS) {.scrollable}
+
+-   **Dataset Overview:** National Center of Competence in Research (NCCR) conducts the Migration and Mobility Survey (MMS) biennially to study migration flows and conditions of foreign residents in Switzerland.
+    - **Size:** ~7,000/wave
+-   **Survey Details:**
+    -   Currently in its fourth wave.
+    -   Targets immigrants aged 18+ at immigration and 24 to 64 at survey time.
+    -   Excludes under 18s and holders of N (asylum) or F (temporary) permits.
+    -   Second wave included ages 26 to 70.
+-   **Sampling Technique:**
+    -   Stratified sampling by gender and geopolitical criteria.
+    -   36 groups created, with \~190 interviews per stratum.
+    -   Total target of 6,800 participants from an initial sample of 11,053 (33% participation anticipated).
+    -   Refresh sample targets underrepresented nationalities, with 67% response rate and 20% reserve sample for sufficiency.
+-   **Data Collection:**
+    -   Mixed modes: 1% via Computer Assisted Telephone Interviews (CATI) and 99% through Online Web Interviews (CAWI).
+    -   Questionnaires standardized, with minimal changes from 2020 to 2022.
+    -   Feedback from internal workshops and tests with Master’s students to ensure question clarity and neutrality.
+-   **Purpose:** Improve reception and integration of immigrants, contributing to societal and economic development in Switzerland.
+
+## Transnational Ageing Survey (TAS) {.scrollable}
+
+-   **Transnational-Ageing Surveys by NCCR – on the move:**
+    -   **Purpose:** To gather data to improve the quality of life for retirees, particularly those spending part of their year in Switzerland.
+    -   **Participants:** Swiss and foreign nationals aged 55 and older.
+    - **Size:** ~5,000/wave
+    -   **Focus Areas:**
+        -   Life in Switzerland.
+        -   Past and current international movements.
+        -   Retirement plans (current or future).
+        -   Family setups in Switzerland and overseas.
+        -   Health, well-being, and overall living conditions.
+-   **Survey Execution and Details:**
+    -   **Initial Survey (2020):**
+        -   Conducted in the first half of 2020.
+        -   Covered national residents of Switzerland, all nationalities, aged 55+.
+        -   Received responses from 3,772 participants.
+        -   Managed by M.I.S Trend survey institute.
+    -   **Subsequent Global Survey (2020):**
+        -   Started in November 2020.
+        -   Focused on Swiss nationals aged 55+ residing overseas.
+        -   Aimed to explore living conditions abroad.
+        -   Collaborated with the Federal Department of Foreign Affairs and the Federal Office of Constructions and Logistics.
+-   **Research Goals:**
+    -   Enhance insights into new international mobility trends among retirees.
+    -   Inform policies and services to support retirees in both domestic and international contexts.
+
+## TransAge {.scrollable}
+
+-   **Dataset Overview: "Transnational Ageing Project: Post-Retirement Mobilities, Transnational Lifestyles and Care Configurations"**
+    -   **Focus:** Older adults (aged 65 and above) from four groups: Swiss natives, Italian international migrants in Switzerland, Italian stayers in Italy, and internally mobile Italians.
+    -   **Size:** ~3,000 
+-   **Data Collection and Study Design:**
+    -   **Research Institutes:** MIS Trend (Switzerland) and Demetra Opinioni (Italy).
+    -   **Collection Methods:** Online questionnaires, paper questionnaires, telephone interviews, and face-to-face interactions.
+    -   **Period:** June to November 2020, during the first and second COVID-19 waves.
+    -   **Participants:** Total of 2,354 older adults.
+    -   **Sampling Strategy:**
+        -   Swiss sample stratified by age and gender.
+        -   Focused on six cantons (Zurich, Bern, Aargau, Vaud, Geneva, Ticino) hosting 70% of the Italian resident population in Switzerland.
+        -   Respondents offered a choice between online and paper questionnaires in German, Italian, and French.
+-   **Study Objectives and Context:**
+    -   **Aim:** Compare groups to understand dynamics due to significant older Italian population in Switzerland, many of whom migrated from Southern Italy between the 1950s and 1970s.
+    -   **Social Desirability Bias Test:** Compared Swiss Household Panel data (conducted by telephone) with data from paper/web methods for the Swiss sample. Found no evidence of bias in subjective well-being indicators.
+-   **Significance:**
+    -   Provides insights into post-retirement mobilities, transnational lifestyles, and care configurations among older adults in transnational settings.
+
+## Limitation of using secondary datasets for studying older migrant population
+
+When studying older migrant populations using secondary data, there are several key limitations to be aware of. To address these limitations, researchers often need to complement secondary data analysis with **primary data collection, including qualitative studies**, to gain a more comprehensive understanding of older migrant populations.
+
+**Main challenges:**
+
+-   Methodological
+-   Ethical
+-   Data
+
+# Literature
+
+## Methodological Challenges
+
+#### 1. Defining the Population of Interest
+
+-   **Complexity:** Older migrants are a heterogeneous group, varying in age, origin, migration history, and legal status.
+-   **Migration Status:** Deciding whether to include second-generation immigrants, return migrants, or those with dual citizenship.
+-   **Cultural Considerations:** Definitions of "older" may differ across cultures and affect self-identification.
+
+## Methodological Challenges
+
+#### 2. Sampling Difficulties
+
+-   **Hard-to-Reach Populations:** Older migrants may be socially isolated or live in areas not easily accessible to researchers.
+-   **Language Barriers:** May limit participation in surveys or interviews.
+-   **Trust Issues:** Some migrants may be hesitant to participate due to fears related to their legal status or past experiences.
+-   **Representativeness:** Ensuring the sample accurately reflects the diversity within the older migrant population.
+-   **Sample Size:** Obtaining a large enough sample for statistical significance, especially for subgroups.
+
+## Methodological Challenges
+
+#### 3. Selection of Appropriate Questions
+
+-   **Cultural Sensitivity:** Ensuring questions are culturally appropriate and not offensive.
+-   **Relevance:** Developing questions that capture the unique experiences of older migrants.
+-   **Comparability:** Balancing the need for context-specific questions with the ability to compare across different migrant groups or with non-migrant populations.
+-   **Comprehension:** Ensuring questions are understood similarly across different linguistic and cultural groups.
+
+## Methodological Challenges
+
+#### 4. Ensuring Validity of Answers
+
+-   **Translation Issues:** Ensuring accurate translation of questions and responses across multiple languages.
+-   **Social Desirability Bias:** Respondents may answer in ways they think are socially acceptable rather than truthfully.
+-   **Recall Bias:** Older participants may have difficulty accurately remembering past events or experiences.
+-   **Proxy Responses:** When family members answer on behalf of older migrants, potentially introducing bias.
+-   **Cultural Interpretation:** Different cultures may interpret questions or concepts differently.
+
+## Methodological Challenges
+
+#### 5. Composition of the Research Team
+
+-   **Cultural Competence:** Ensuring researchers understand the cultural contexts of the populations they're studying.
+-   **Language Skills:** Having team members who speak the languages of the migrant groups being studied.
+-   **Interdisciplinary Approach:** Incorporating experts from various fields (e.g., gerontology, migration studies, public health) for a comprehensive perspective.
+-   **Diversity:** Including researchers from migrant backgrounds to bring insider perspectives and enhance trust with participants.
+-   **Training:** Providing specialized training for researchers on working with older migrant populations.
+
+## Ethical challenges
+
+#### 1. Obtaining informed consent:
+
+-   **Language barriers** may make it difficult to fully explain the research and obtain truly informed consent.
+-   **Cultural differences** in understanding concepts like research participation and consent.
+-   **Cognitive impairments** in some older participants may impact their ability to provide informed consent.
+
+## Ethical challenges
+
+#### 2. Discussing sensitive topics:
+
+-   **Migration experiences**, especially for refugees, may involve **trauma** that is difficult to discuss.
+-   **Cultural taboos** around certain topics (e.g. mental health, family relationships) may make participants **uncomfortable**.
+-   **Researchers need to balance gathering important data with respecting participants' boundaries**.
+
+## Ethical challenges
+
+#### 3. Addressing the impact of COVID-19:
+
+-   Older migrants are a **high-risk group**, requiring extra precautions for in-person research.
+-   Shift to **remote/online methods** may **exclude participants** without technology access/litteracy.
+-   Pandemic-related stressors may impact participants' wellbeing and **willingness to engage in research.**
+-   **Need to consider how the pandemic context affects research questions and data interpretation.**
+
+## Ethical challenges
+
+#### Additional ethical considerations:
+
+-   Ensuring **privacy and confidentiality**, especially for undocumented migrants.
+-   Providing appropriate **compensation** without being coercive.
+-   Addressing **power imbalances** between researchers and participants.
+-   Considering the **impact of the research** on the broader migrant community.
+-   **Ethical data sharing** practices, given the sensitive nature of the information.
+
+## Data Limitations in Older Migrant Research
+
+-   Lack of comprehensive **age-disaggregated data**
+-   Question adapted to the elderly population
+    -   Life course
+    -   Vulnerability
+    -   Integration
+    -   Mobility
+    -   Family
+    -   Transnationalism
+    -   Health
+    -   COVID-19
+
+# Selected criterias
+
+## Criterias for Datasets (1)
+
+**Categories:**
+
+-   **Where in the process?**
+    1.  Data planification
+    2.  Data collection
+    3.  Final datasets
+-   **Type of challenge?**
+    1.  Methodological
+    2.  Ethical
+    3.  Data
+
+## Criteria for Datasets (2)
+
+**Data planification / Methodological challenges:**
+
+1.  **Wide geographic coverage:** Many nationality
+2.  **Diverse migrant categories:** Cover different types of migration (e.g., labor migration, family reunification, refugee/asylum)
+3.  **Longitudinal data:** Track changes over time to understand integration processes and long-term outcomes
+4.  **Migration history:** Capture information on circular and return migration
+5.  **Qualitative data integration:** Include or link to qualitative data to provide context and deeper insights
+6.  **Standardized definitions and measures:** Employ standardized measures of key variables to allow for comparisons
+
+## Criteria for Datasets (3)
+
+**Data collection / Ethical challenges:**
+
+1.  **Privacy and confidentiality:** Protect personnal data and include information on informed consent procedures
+2.  **Methodological transparency:** Provide clear documentation of data collection methods, sampling strategies, and limitations
+3.  **Accessibility:** Make data accessible to researchers while protecting privacy
+
+## Criteria for Datasets (4)
+
+**Dataset:**
+
+1.  **Age disaggregation:** Detailed age categories, especially for those 65 and older (e.g., 65-69, 70-74, 75+)
+2.  **Demographic information:** Sex, country of origin, duration of stay
+3.  **Socioeconomic factors:** Labor market outcomes, educational attainment
+4.  **Health status:** Physical and mental health indicators
+5.  **Migration history:** Type of migration (e.g., former guest workers, postcolonial migrants, refugees)
+6.  **Destination country data:** To facilitate cross-country comparisons
+7.  **Longitudinal data:** To allow for trend analysis over time
+8.  **Qualitative data:** To supplement quantitative information and provide context
+9.  **Cultural and linguistic factors:** To understand integration challenges
+10. **Access to services:** Information on healthcare, social services, and support systems
+
+## Contribution
+
+### Thes datasets...
+
+-   Gives examples of good practices and challenges
+-   Shows what can and has been done
+-   Gives insights to a particular migrant population
+-   Presents the interesting context of Switzerland
+
+### Next steps
+
+-   Get access to all codebooks
+-   Analysing the datasets through this approach
+-   Collect research in the field of older migration that use these datasets
+-   Discussion ways to improve them
+
+# Thank you for your attention!
+
+### Questions?
+
+## References
+
+::: {#refs}
+:::
