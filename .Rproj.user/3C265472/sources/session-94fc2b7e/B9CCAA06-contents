@@ -183,13 +183,15 @@ nocite: |
 
 ## **Data extraction** {auto-animate="true"}
 
-![](official-llms.jpg)
-https://www.techradar.com/computing/artificial-intelligence/best-llms
+![https://www.techradar.com/computing/artificial-intelligence/best-llms](official-llms.jpg)
+
 
 ## **Data extraction** {auto-animate="true"}
+```{r}
+# https://www.techradar.com/computing/artificial-intelligence/best-llms
+```
 
 ![](6-llms-use-cases.png){.absolute right=200 height=600}
-https://www.techradar.com/computing/artificial-intelligence/best-llms
 
 ## **Data extraction** {auto-animate="true"}
 
