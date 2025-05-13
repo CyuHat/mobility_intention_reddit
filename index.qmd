@@ -4,7 +4,7 @@ authors:
   - name: "Hategekimana Vestin" 
     affiliation: "University of Geneva"
     email: "vestin.hategekimana@unige.ch"
-subtitle: https://cyuhat.github.io/presentation_valencia/#/title-slide
+subtitle: https://cyuhat.github.io/mobility_intention_reddit/#/title-slide
 format: 
   clean-revealjs:
     transition: slide
