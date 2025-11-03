@@ -6,8 +6,8 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.42">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-8f1af79587c2686b78fe4e1fbadd71ab.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.14">
 
   <title>Migration Aspiration and Crisis in Redditors’ Trajectory</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,8 +28,9 @@
       vertical-align: middle;
     }
     /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -40,7 +41,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -113,7 +114,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-030b9d88cc40cfdbd8f8596642537a6c.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-46b443fb7eb51017f5270809ffea19d1.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -212,7 +213,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Migration Aspiration and Crisis in Redditors’ Trajectory</h1>
-  <p class="subtitle">https://cyuhat.github.io/mobility_intention_reddit/#/title-slide</p>
+  <p class="subtitle">https://cyuhat.github.io/mobility_intention_reddit</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -232,91 +233,98 @@ Hategekimana Vestin
 <section id="research-question" class="slide level2">
 <h2><strong>Research question</strong></h2>
 <ul>
-<li class="fragment"><strong>Central question</strong>:
+<li><strong>Central question</strong>:
 <ul>
-<li class="fragment"><strong>How do personal life trajectories and critical events influence individuals’ migration intentions to Switzerland over time?</strong></li>
+<li><strong>How do personal life trajectories and critical events influence individuals’ migration intentions to Switzerland over time?</strong></li>
 </ul></li>
-<li class="fragment"><strong>Key focus</strong>:
+<li><strong>Key focus</strong>:
 <ul>
-<li class="fragment">Migration intention over time</li>
-<li class="fragment">Life course perspective</li>
+<li>Migration intention over time</li>
+<li>Life course perspective</li>
 </ul></li>
-<li class="fragment"><strong>Methods (mixed)</strong>:
+<li><strong>Methods (mixed)</strong>:
 <ul>
-<li class="fragment">Quantitative: Longitudinal multilevel analysis</li>
-<li class="fragment">Qualitative: Depend on the trajectories selected</li>
+<li>Quantitative: Longitudinal multilevel analysis</li>
+<li>Qualitative: Depend on the trajectories selected</li>
 </ul></li>
 </ul>
 </section>
 <section id="migration-intention" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Migration intention</h2>
+<p>Let’s imagine an individual…</p>
 <p><img data-src="stickman.svg" class="absolute" style="left: 300px; height: 500px; "></p>
 </section>
 <section id="migration-intention-1" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Migration intention</h2>
+<p>… that want to move to Switzerland</p>
 <p><img data-src="stickman.svg" class="absolute" style="left: 0px; height: 400px; "></p>
 <p><img data-src="switzerland.png" class="absolute" style="right: 0px; height: 350px; "></p>
 </section>
 <section id="migration-intention-2" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Migration intention</h2>
+<p>Does the intention to move vary over time?</p>
 <p><img data-src="stickman.svg" class="absolute" style="left: 0px; height: 400px; "></p>
 <p><img data-src="switzerland.png" class="absolute" style="right: 0px; height: 350px; "></p>
 <p><img data-src="time-series.svg" class="absolute" style="top: 400px; left: 230px; "></p>
 </section>
-<section id="migration-intention-3" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Migration intention</h2>
+<section id="migration-intention-isnt-always-predictible" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Migration intention isn’t always predictible</h2>
 <p><strong>2 years after:</strong></p>
 <ul>
-<li class="fragment"><p>70% indeed emigrated (Wanner, 2021)</p></li>
-<li class="fragment"><p>24% - 36% indeed emigrated (Van Dalen &amp; Henkens, 2008)</p></li>
+<li><p>70% indeed emigrated (Wanner, 2021)</p></li>
+<li><p>24% - 36% indeed emigrated (Van Dalen &amp; Henkens, 2008)</p></li>
 </ul>
 <p><strong>Factors</strong> (Bernard &amp; Vidal, 2023; Kulu &amp; Milewski, 2007):</p>
 <ul>
-<li class="fragment"><p>Job opportunities</p></li>
-<li class="fragment"><p>Birth</p></li>
-<li class="fragment"><p>Social network</p></li>
-<li class="fragment"><p>…</p></li>
+<li><p>Job opportunities</p></li>
+<li><p>Birth</p></li>
+<li><p>Social network</p></li>
+<li><p>…</p></li>
 </ul>
 </section>
 <section id="research-context" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"><strong>Research context</strong></h2>
+<p>Many factors have an impact in the mobility intention:</p>
 <ul>
-<li class="fragment"><strong>Demographic scope</strong> (Findlay et al., 2015):
+<li><strong>Demographic scope</strong> (Findlay et al., 2015):
 <ul>
-<li class="fragment">Age groups, gender, family statuses, migrant groups, …</li>
+<li>Age groups, gender, family statuses, migrant groups, …</li>
 </ul></li>
-<li class="fragment"><strong>Life course</strong> (Horowitz &amp; Entwisle, 2021).:
+<li><strong>Life course</strong> (Horowitz &amp; Entwisle, 2021).:
 <ul>
-<li class="fragment"><strong>Life events</strong> (e.g., education, job loss, birth, divorce)<br>
+<li><strong>Life events</strong> (e.g., education, job loss, birth, divorce)<br>
 </li>
-<li class="fragment"><strong>Linked lives</strong> (family/social networks influencing decisions)<br>
+<li><strong>Linked lives</strong> (family/social networks influencing decisions)<br>
 </li>
-<li class="fragment"><strong>Historical time/place</strong> (contextual factors like economic crisis).</li>
-<li class="fragment"><strong>Individual agency</strong> (decision-making processes)<br>
+<li><strong>Historical time/place</strong> (contextual factors like economic crisis).</li>
+<li><strong>Individual agency</strong> (decision-making processes)<br>
 </li>
-<li class="fragment"><strong>Timing of lives</strong> (age-related migration patterns)</li>
+<li><strong>Timing of lives</strong> (age-related migration patterns)</li>
 </ul></li>
 </ul>
 </section>
 <section id="research-context-1" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"><strong>Research context</strong></h2>
 <ul>
-<li class="fragment"><strong>Traditional methods are limited</strong>
+<li><strong>Traditional methods have their limitations</strong>
 <ul>
-<li class="fragment"><strong>Quantitatives studies</strong>:
+<li><strong>Quantitatives studies</strong>:
 <ul>
-<li class="fragment">Despite the longitudinal approach</li>
-<li class="fragment">Focus on few specific life event.</li>
+<li>Focus on few specific life events</li>
+<li>Focus on rare Geo-localized data</li>
 </ul></li>
-<li class="fragment"><strong>Qualitative studies</strong>:
+<li><strong>Qualitative studies</strong>:
 <ul>
-<li class="fragment">Despite the richness of the analysis</li>
-<li class="fragment">Usage of small samples</li>
+<li>Despite the richness of the analysis</li>
+<li>Usage of small samples</li>
 </ul></li>
-<li class="fragment"><strong>Social media data</strong> (Sîrbu et al., 2021)
+</ul></li>
+<li><strong>New data sources are available</strong>
 <ul>
-<li class="fragment">Big Data</li>
-<li class="fragment">Textual data + Metadata</li>
+<li><strong>Social media data</strong> (Sîrbu et al., 2021)
+<ul>
+<li>Big Data</li>
+<li>Textual data + Metadata</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -324,65 +332,62 @@ Hategekimana Vestin
 <section id="methodological-innovation" class="slide level2">
 <h2><strong>Methodological innovation</strong></h2>
 <ul>
-<li class="fragment"><strong>Why this study is unique</strong>:
+<li><strong>Why is this study unique in migration research?</strong>:
 <ul>
-<li class="fragment"><strong>Longitudinal Data</strong>: Tracks individuals’ journeys over <strong>4 years</strong> (2 years before/after relocation decisions).<br>
+<li><strong>Longitudinal Data</strong>: Tracks individuals’ journeys over <strong>4 years</strong> (2 years before/after relocation decisions).<br>
 </li>
-<li class="fragment"><strong>Mixed Methods</strong>: Combines large language models (for data extraction) with longitudinal multilevel (for interpretive insights).
-<ul>
-<li class="fragment"><strong>Today: Quantitative part</strong></li>
-</ul></li>
-<li class="fragment"><strong>Use of Reddit</strong>: Captures <strong>nuanced, unfiltered narratives</strong> from users who express relocation intentions.</li>
+<li><strong>Mixed Methods</strong>: Combines large language models (for data extraction) with longitudinal multilevel regression (for interpretive insights). Then interview will be conducted with a subset of the sample</li>
+<li><strong>Use of Reddit</strong>: Captures <strong>nuanced, unfiltered narratives</strong> from users who express relocation intentions.</li>
 </ul></li>
 </ul>
 </section>
 <section id="reddit" class="slide level2">
 <h2><strong>Reddit</strong></h2>
 <h3 id="httpsbacklinko.comreddit-users">https://backlinko.com/reddit-users</h3>
-<p><strong>What?</strong></p>
+<p><strong>What is it?</strong></p>
 <ul>
-<li class="fragment"><p>Social media</p></li>
-<li class="fragment"><p>Founded in 2005</p></li>
-<li class="fragment"><p>Community based</p></li>
+<li><p>Social media</p></li>
+<li><p>Founded in 2005</p></li>
+<li><p>Community based</p></li>
 </ul>
 <p><strong>Statistics</strong></p>
 <ul>
-<li class="fragment"><p>97.2 million daily active users</p></li>
-<li class="fragment"><p>+100’000 active subreddits</p></li>
+<li><p>97.2 million daily active users</p></li>
+<li><p>+100’000 active subreddits</p></li>
 </ul>
 <p><img data-src="Reddit-Logo.jpg" class="absolute" style="top: 0px; right: 0px; height: 150px; "> <img data-src="subreddit.png" class="absolute" style="top: 200px; right: 0px; height: 400px; "></p>
 </section>
 <section id="adavantages-of-reddit" class="slide level2">
 <h2><strong>Adavantages of Reddit</strong></h2>
 <ul>
-<li class="fragment"><strong>Longitudinal Tracking</strong>:
+<li><strong>Longitudinal Tracking</strong>:
 <ul>
-<li class="fragment">Enables analysis of how <strong>personal circumstances, policies, and crises</strong> (e.g., pandemic) dynamically shape migration decisions.</li>
+<li>Enables analysis of how <strong>personal circumstances, policies, and crises</strong> (e.g., pandemic) dynamically shape migration decisions.</li>
 </ul></li>
-<li class="fragment"><strong>Ethical and accessibility benefits</strong>:
+<li><strong>Ethical and accessibility benefits</strong>:
 <ul>
-<li class="fragment">Reddit’s <strong>anonymity</strong> and <strong>accessible API</strong> reduce ethical concerns compared to traditional methods (e.g., surveys).</li>
+<li>Reddit’s <strong>anonymity</strong> and <strong>accessible API for researchers</strong> reduce ethical concerns compared to traditional methods (e.g., surveys).</li>
 </ul></li>
-<li class="fragment"><strong>Novel use of non-official APIs (Application Programming Interface)</strong>:
+<li><strong>Novel use of non-official APIs (Application Programming Interface)</strong>:
 <ul>
-<li class="fragment">The <strong>PullPush API</strong> facilitates comprehensive data collection over extended periods, a rarity in migration studies.</li>
+<li>The <strong>PullPush API</strong> facilitates comprehensive data collection over extended periods.</li>
 </ul></li>
 </ul>
 </section>
 <section id="key-objectives" class="slide level2">
 <h2><strong>Key objectives</strong></h2>
 <ul>
-<li class="fragment"><strong>Primary goal</strong>:
+<li><strong>Primary goal</strong>:
 <ul>
-<li class="fragment">Map the <strong>temporal progression</strong> of migration intention using data from Reddit’s <em>r/AskSwitzerland</em>.<br>
+<li>Map the <strong>temporal progression of migration intention</strong> using data from Reddit’s <em>r/AskSwitzerland</em>.<br>
 </li>
-<li class="fragment">Highlight the <strong>impact of Covid-19</strong> in migration intention</li>
+<li>Highlight the <strong>impact of Covid-19</strong> in migration intention</li>
 </ul></li>
-<li class="fragment"><strong>Side objectives</strong>:
+<li><strong>Side objectives</strong>:
 <ul>
-<li class="fragment">Show that <strong>Reddit data</strong> are valuable</li>
-<li class="fragment">Show that <strong>SLMs (Small Language Models)</strong> are valuable tools for data extraction</li>
-<li class="fragment">Show that <strong>the Julia programming language</strong> is a valuable programming language for social scientist</li>
+<li>Show that <strong>Reddit data are valuable for migration studies</strong></li>
+<li>Show that local <strong>SLMs (Small Language Models) are valuable tools for data extraction</strong></li>
+<li>Show that <strong>the Julia programming language is a valuable</strong> programming language for <strong>social scientists</strong></li>
 </ul></li>
 </ul>
 </section>
@@ -391,22 +396,22 @@ Hategekimana Vestin
 <h1>Method</h1>
 
 </section>
-<section id="data-source-reddit-and-raskswitzerland" class="slide level2">
-<h2><strong>Data Source: Reddit and r/AskSwitzerland</strong></h2>
+<section id="data-source-reddit-and-raskswitzerland" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"><strong>Data Source: Reddit and r/AskSwitzerland</strong></h2>
 
 <img data-src="askswitzerland.png" class="r-stretch"></section>
-<section id="data-source-reddit-and-raskswitzerland-1" class="slide level2">
-<h2><strong>Data Source: Reddit and r/AskSwitzerland</strong></h2>
+<section id="data-source-reddit-and-raskswitzerland-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"><strong>Data Source: Reddit and r/AskSwitzerland</strong></h2>
 <ul>
-<li class="fragment"><strong>Platform Choice</strong>:
+<li><strong>Platform Choice</strong>:
 <ul>
-<li class="fragment">Reddit is used as a primary source due to its <strong>rich textual data</strong> and <strong>community-driven discussions</strong> about migration.<br>
+<li>Reddit is used as a primary source due to its <strong>rich textual data</strong> and <strong>community-driven discussions</strong> about migration.<br>
 </li>
-<li class="fragment">The subreddit <strong>r/AskSwitzerland</strong> is specifically targeted, as it is a hub for users seeking information about living in Switzerland and expressing relocation intentions.</li>
+<li>The subreddit <strong>r/AskSwitzerland</strong> is specifically targeted, as it is a hub for users seeking information <strong>about living in Switzerland and expressing relocation intentions</strong>.</li>
 </ul></li>
-<li class="fragment"><strong>Non-Official API (PullPush)</strong>:
+<li><strong>Non-Official API (PullPush)</strong>:
 <ul>
-<li class="fragment">Utilizes the <strong>PullPush API</strong> to collect longitudinal data, enabling <strong>long-term tracking</strong> of user behavior and migration intentions.</li>
+<li>Utilizes the <strong>PullPush API</strong> to collect longitudinal data, enabling <strong>long-term tracking</strong> of user behavior and migration intentions.</li>
 </ul></li>
 </ul>
 </section>
@@ -414,70 +419,75 @@ Hategekimana Vestin
 <h2><strong>The full workflow</strong></h2>
 
 <img data-src="full_process.png" class="r-stretch"></section>
-<section id="data-collection" class="slide level2">
-<h2><strong>Data collection</strong></h2>
+<section id="data-collection" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"><strong>Data collection</strong></h2>
 <ul>
-<li class="fragment"><strong>Three-stage approach</strong>:
+<li><strong>Three-stage approach</strong>:
 <ol type="1">
-<li class="fragment"><strong>Initial collection (2018–2020)</strong>:
+<li><strong>Initial collection (2016–2021)</strong>:
 <ul>
-<li class="fragment">Posts containing keywords like <em>“Relocation,” “Migration,” “Mobility,”</em> or <em>“Living in Switzerland”</em> are gathered.<br>
+<li>Posts containing keywords like <mark><em>“Relocation,” “Migration,” “Mobility,”</em></mark> or <mark><em>“Living in Switzerland”</em></mark> are gathered.<br>
 </li>
 </ul></li>
-<li class="fragment"><strong>Filtering</strong>:
+<li><strong>Filtering</strong>:
 <ul>
-<li class="fragment">Posts are filtered to retain only those expressing <strong>genuine intent to move to Switzerland</strong>.<br>
+<li>Posts are filtered to retain only those expressing <strong>genuine intent to move to Switzerland</strong>.<br>
 </li>
 </ul></li>
-<li class="fragment"><strong>Saving user name</strong>:
+<li><strong>Saving user name</strong>:
 <ul>
-<li class="fragment">A list of user name is saved in a database.</li>
+<li>A list of user name is saved in a database.</li>
 </ul></li>
 </ol></li>
 </ul>
 </section>
-<section id="data-extraction" class="slide level2">
-<h2><strong>Data extraction</strong></h2>
+<section id="data-extraction" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"><strong>Data extraction</strong></h2>
 <ul>
-<li class="fragment"><strong>Three-stage approach</strong>:
+<li><strong>Three-stage approach</strong>:
 <ol type="1">
-<li class="fragment"><strong>User’s comment history (2nd data collection)</strong>:</li>
+<li><strong>Users’ comment history (2nd data collection)</strong>:</li>
 </ol>
 <ul>
-<li class="fragment">Collecting user’s comment history 2 years before and after the migration intention</li>
+<li>Collecting user’s comment history 2 years before and after the migration intention</li>
+<li>Removing people who posted only once (<strong>current sample size: 669</strong>)</li>
 </ul>
 <ol start="2" type="1">
-<li class="fragment"><strong>Monthly comment aggregation</strong>:</li>
+<li><strong>Monthly comment aggregation</strong>:</li>
 </ol>
 <ul>
-<li class="fragment">The time unit is monthly so the comment are join this way</li>
+<li>The time unit is monthly so the comment are joined this way</li>
 </ul>
 <ol start="3" type="1">
-<li class="fragment"><strong>SLMs data extraction</strong>:</li>
+<li><strong>SLMs data extraction</strong>:</li>
 </ol>
 <ul>
-<li class="fragment">Using a small language model specific information will be extracted</li>
+<li>Using a small language model, specific information will be extracted</li>
 </ul></li>
 </ul>
 </section>
 <section id="data-extraction-1" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"><strong>Data extraction</strong></h2>
+<p>Using a Large Language Model (LLM) or a Small Language Model (SLM)?</p>
 
 <img data-src="official-llms.jpg" class="r-stretch quarto-figure-center"><p class="caption">https://www.techradar.com/computing/artificial-intelligence/best-llms</p></section>
 <section id="data-extraction-2" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"><strong>Data extraction</strong></h2>
+<p>LLMs have many use cases… data extraction is one of them!</p>
 <p><img data-src="6-llms-use-cases.png" class="absolute" style="right: 200px; height: 600px; "></p>
 </section>
 <section id="data-extraction-3" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"><strong>Data extraction</strong></h2>
+<p><strong>From unstructured text to JSON format (LLMs are good for that!)</strong></p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>“Hey everyone, I <strong>(f28)</strong> and my <strong>husband (h28)</strong> been dreaming of moving to Switzerland because I’ve received an exciting <strong>job offer</strong> from a tech company based there. The role involves developing innovative software solutions and working with a talented team, which aligns perfectly with my career goals.”</p>
+<p>“Hey everyone, I <strong>(f28)</strong> and my <strong>husband (h28)</strong> have been dreaming of moving to Switzerland because I’ve received an exciting <strong>job offer</strong> from a tech company based there. The role involves developing innovative software solutions and working with a talented team, which aligns perfectly with my career goals.”</p>
 </div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href=""></a>Extract the following information of the poster </span>
-<span id="cb1-2"><a href=""></a>in a JSON format: poster age, poster sex, </span>
-<span id="cb1-3"><a href=""></a>migration reason [job, family], coming from, </span>
-<span id="cb1-4"><a href=""></a>marital status, social network.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href=""></a>Prompt: Extract the following information of </span>
+<span id="cb1-2"><a href=""></a>the user in a JSON format: user age, </span>
+<span id="cb1-3"><a href=""></a>user sex, migration reason [job, family], </span>
+<span id="cb1-4"><a href=""></a>coming from, marital status, social network.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Result</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource json number-lines code-with-copy"><code class="sourceCode json"><span id="cb2-1"><a href=""></a><span class="fu">{</span></span>
 <span id="cb2-2"><a href=""></a>  <span class="dt">"poster_age"</span><span class="fu">:</span> <span class="st">"28"</span><span class="fu">,</span></span>
 <span id="cb2-3"><a href=""></a>  <span class="dt">"poster_sex"</span><span class="fu">:</span> <span class="st">"female"</span><span class="fu">,</span></span>
@@ -490,19 +500,171 @@ Hategekimana Vestin
 </section>
 <section id="data-extraction-4" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"><strong>Data extraction</strong></h2>
+<p><strong>Some advanced prompting is needed:</strong></p>
+<ul>
+<li>Role given to the model: Labeling Expert</li>
+<li>Detailed description of variables we are looking for</li>
+<li>Restricted value list per variable given</li>
+<li>A few shots example (questions and expected answers) to guide the model</li>
+</ul>
+<p><strong>Result</strong></p>
+<ul>
+<li>+100 lines long prompt with 3 examples</li>
+</ul>
+</section>
+<section id="data-extraction-5" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"><strong>Data extraction</strong></h2>
+<p><strong>The full prompt:</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource texts number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode hljs"><span id="cb3-1" class="hljs-ln-code"><a href=""></a>/nothink You are a labeling expert specialized in extracting data from Reddit </span>
+<span id="cb3-2" class="hljs-ln-code"><a href=""></a>posts. Your goal is to extract relevant socio-demographic data from a given</span>
+<span id="cb3-3" class="hljs-ln-code"><a href=""></a>Reddit post. Please extract the data in valid JSON format, following this </span>
+<span id="cb3-4" class="hljs-ln-code"><a href=""></a>schema:</span>
+<span id="cb3-5" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-6" class="hljs-ln-code"><a href=""></a>{</span>
+<span id="cb3-7" class="hljs-ln-code"><a href=""></a>    "age": "",</span>
+<span id="cb3-8" class="hljs-ln-code"><a href=""></a>    "sex": "",</span>
+<span id="cb3-9" class="hljs-ln-code"><a href=""></a>    "marital_status": "",</span>
+<span id="cb3-10" class="hljs-ln-code"><a href=""></a>    "level_of_education": "",</span>
+<span id="cb3-11" class="hljs-ln-code"><a href=""></a>    "occupations": [],</span>
+<span id="cb3-12" class="hljs-ln-code"><a href=""></a>    "sector": [],</span>
+<span id="cb3-13" class="hljs-ln-code"><a href=""></a>    "nationality": [],</span>
+<span id="cb3-14" class="hljs-ln-code"><a href=""></a>    "country": [],</span>
+<span id="cb3-15" class="hljs-ln-code"><a href=""></a>    "migration_reason": [],</span>
+<span id="cb3-16" class="hljs-ln-code"><a href=""></a>    "migration_reason_details": "",</span>
+<span id="cb3-17" class="hljs-ln-code"><a href=""></a>    "coming_with_list": [],</span>
+<span id="cb3-18" class="hljs-ln-code"><a href=""></a>    "relationship_in_switzerland_list": [],</span>
+<span id="cb3-19" class="hljs-ln-code"><a href=""></a>    "going_to_canton": [],</span>
+<span id="cb3-20" class="hljs-ln-code"><a href=""></a>    "concerns": [],</span>
+<span id="cb3-21" class="hljs-ln-code"><a href=""></a>    "estimated_arrival_date": "",</span>
+<span id="cb3-22" class="hljs-ln-code"><a href=""></a>    "estimated_staying_duration": ""</span>
+<span id="cb3-23" class="hljs-ln-code"><a href=""></a>}</span>
+<span id="cb3-24" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-25" class="hljs-ln-code"><a href=""></a>here is the detail of what each key can have as a value:</span>
+<span id="cb3-26" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-27" class="hljs-ln-code"><a href=""></a>age: from 1 to 100,</span>
+<span id="cb3-28" class="hljs-ln-code"><a href=""></a>sex: one of [Man, Woman],</span>
+<span id="cb3-29" class="hljs-ln-code"><a href=""></a>marital status: one or many of [Single, In Relationship, Married, Divorced],</span>
+<span id="cb3-30" class="hljs-ln-code"><a href=""></a>level_of_education: one of [Primary, Secondary, Tertiary],</span>
+<span id="cb3-31" class="hljs-ln-code"><a href=""></a>occupation: can be any type of employement,</span>
+<span id="cb3-32" class="hljs-ln-code"><a href=""></a>sector: which sector is the employement,</span>
+<span id="cb3-33" class="hljs-ln-code"><a href=""></a>nationality: which nationality,</span>
+<span id="cb3-34" class="hljs-ln-code"><a href=""></a>country: which country,</span>
+<span id="cb3-35" class="hljs-ln-code"><a href=""></a>migration_reason: one or many of [Professional reason, Educational, Start a family, Accompany family, Life style Reason, Gain new experience, Social Network in Switzerland, Tax reason, Political reason, Other reason],</span>
+<span id="cb3-36" class="hljs-ln-code"><a href=""></a>migration_reason_details: details what is said in the text,</span>
+<span id="cb3-37" class="hljs-ln-code"><a href=""></a>coming_with_list: one or many of [Partner, Parents, Children, Friends, Colleagues, Other People],</span>
+<span id="cb3-38" class="hljs-ln-code"><a href=""></a>relationship_in_switzerland_list: [Partner, Parents, Children, Friends, Colleagues, Other People],</span>
+<span id="cb3-39" class="hljs-ln-code"><a href=""></a>going_to_canton: One of [Zürich (ZH), Bern (BE), Luzern (LU), Uri (UR), Schwyz (SZ), Obwalden (OW), Nidwalden (NW)), Glarus (GL), Zug (ZG), Freiburg (FR), Solothurn (SO), Basel Stadt (BS), Basel Land (BL), Schaffhausen (SH), Appenzell Ausserrhoden (AR), Appenzell Innerrhoden (AI), Sankt Gallen (SG), Graubünden (GR), Aargau (AG), Thurgau (TG), Ticino (TI), Vaud (VD), Valais (VS), Neuchâtel (NE), Genève (GE), Jura (JU)],</span>
+<span id="cb3-40" class="hljs-ln-code"><a href=""></a>concerns: [Financing the move, Financing the settlement, Finding Accomodation, Finding Childcare, Finding School, ealing with Administration, Speaking Local Language, Feeling Lonely, Feeling Homesick, Feeling Unwelcomed, Cost of Life in Switzerland, Work/Residential Permit, Healthcare System, Politics, Salary],</span>
+<span id="cb3-41" class="hljs-ln-code"><a href=""></a>estimated_arrival_date: give an estimated date in the Following format yyyy-mm-dd and floor it if it is unsure and chose the earliest option,</span>
+<span id="cb3-42" class="hljs-ln-code"><a href=""></a>estimated_staying_duration: give an estimation in years</span>
+<span id="cb3-43" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-44" class="hljs-ln-code"><a href=""></a>If the information for a given key is not available, just return an empty string ("") or an empty list ([]). Do not answer anything else than the json. Here are some examples:</span>
+<span id="cb3-45" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-46" class="hljs-ln-code"><a href=""></a>---</span>
+<span id="cb3-47" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-48" class="hljs-ln-code"><a href=""></a># Example 1</span>
+<span id="cb3-49" class="hljs-ln-code"><a href=""></a>DATE: 2019-02-04</span>
+<span id="cb3-50" class="hljs-ln-code"><a href=""></a>TITLE: Arrival to Switzerland on March, what to do?</span>
+<span id="cb3-51" class="hljs-ln-code"><a href=""></a>AUTHOR_FLAIR: family</span>
+<span id="cb3-52" class="hljs-ln-code"><a href=""></a>TEXT: Hey everyone, so I'm (f39) an IT professional who just got a promotion that allows me to move to Switzerland. So I'm coming from Germany, and I know that Switzerland and Germany are pretty similar in many ways. In fact, I'm moving because I'm coming with my spouse (31) and my two kids (12 and 17). I'd like to know if it's possible to settle in Switzerland easily. So I have some questions about schools because I want to enroll my kids in school. I also have questions about what comes next, especially regarding healthcare.  And basically, I wanted to know if it's possible to earn a good salary in Switzerland.  </span>
+<span id="cb3-53" class="hljs-ln-code"><a href=""></a>That's it.</span>
+<span id="cb3-54" class="hljs-ln-code"><a href=""></a>Thanks in advance!</span>
+<span id="cb3-55" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-56" class="hljs-ln-code"><a href=""></a># Response 1  </span>
+<span id="cb3-57" class="hljs-ln-code"><a href=""></a>{</span>
+<span id="cb3-58" class="hljs-ln-code"><a href=""></a>    "age": "39",</span>
+<span id="cb3-59" class="hljs-ln-code"><a href=""></a>    "sex": "Woman",</span>
+<span id="cb3-60" class="hljs-ln-code"><a href=""></a>    "marital_status": "Relationship",</span>
+<span id="cb3-61" class="hljs-ln-code"><a href=""></a>    "level_of_education": "Tertiary",</span>
+<span id="cb3-62" class="hljs-ln-code"><a href=""></a>    "occupations": ["IT professional"],</span>
+<span id="cb3-63" class="hljs-ln-code"><a href=""></a>    "sector": ["IT"],</span>
+<span id="cb3-64" class="hljs-ln-code"><a href=""></a>    "nationality": ["German"],</span>
+<span id="cb3-65" class="hljs-ln-code"><a href=""></a>    "country": ["Germany"],</span>
+<span id="cb3-66" class="hljs-ln-code"><a href=""></a>    "migration_reason": ["Professional reason", "Gain new experience"],</span>
+<span id="cb3-67" class="hljs-ln-code"><a href=""></a>    "migration_reason_details": "Just got a promotion",</span>
+<span id="cb3-68" class="hljs-ln-code"><a href=""></a>    "coming_with_list": ["Partner", "Children"],</span>
+<span id="cb3-69" class="hljs-ln-code"><a href=""></a>    "relationship_in_switzerland_list": [],</span>
+<span id="cb3-70" class="hljs-ln-code"><a href=""></a>    "going_to_canton": [],</span>
+<span id="cb3-71" class="hljs-ln-code"><a href=""></a>    "concerns": ["Finding school", "Healthcare system", "Salary"],</span>
+<span id="cb3-72" class="hljs-ln-code"><a href=""></a>    "estimated_arrival_date": "",</span>
+<span id="cb3-73" class="hljs-ln-code"><a href=""></a>    "estimated_staying_duration": ""</span>
+<span id="cb3-74" class="hljs-ln-code"><a href=""></a>}</span>
+<span id="cb3-75" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-76" class="hljs-ln-code"><a href=""></a>---</span>
+<span id="cb3-77" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-78" class="hljs-ln-code"><a href=""></a># Example 2</span>
+<span id="cb3-79" class="hljs-ln-code"><a href=""></a>DATE: 2018-05-19</span>
+<span id="cb3-80" class="hljs-ln-code"><a href=""></a>TITLE: 22M in Philosophy</span>
+<span id="cb3-81" class="hljs-ln-code"><a href=""></a>AUTHOR_FLAIR: family</span>
+<span id="cb3-82" class="hljs-ln-code"><a href=""></a>TEXT: Hey everyone, I'm a Harvard student, originally from China, but I've been living in the US for now. I actually got a job offer that allows me to move to Switzerland, and I'd really like to know how to get a student permit there. The problem is, all the documentation I find is either unreadable or inaccessible. I also want to know how expensive life in Switzerland is — I know it's already pretty pricey in the US, and now if I move to Switzerland, how is it going to go down? For reference, I'll be in the canton of Vaud, more specifically in Lausanne. Can anyone tell me what it's like there?</span>
+<span id="cb3-83" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-84" class="hljs-ln-code"><a href=""></a># Response 2</span>
+<span id="cb3-85" class="hljs-ln-code"><a href=""></a>  </span>
+<span id="cb3-86" class="hljs-ln-code"><a href=""></a>{</span>
+<span id="cb3-87" class="hljs-ln-code"><a href=""></a>    "age": "22",</span>
+<span id="cb3-88" class="hljs-ln-code"><a href=""></a>    "sex": "Man",</span>
+<span id="cb3-89" class="hljs-ln-code"><a href=""></a>    "marital_status": "",</span>
+<span id="cb3-90" class="hljs-ln-code"><a href=""></a>    "level_of_education": "Tertiary",</span>
+<span id="cb3-91" class="hljs-ln-code"><a href=""></a>    "occupations": ["Student"],</span>
+<span id="cb3-92" class="hljs-ln-code"><a href=""></a>    "sector": ["Education"],</span>
+<span id="cb3-93" class="hljs-ln-code"><a href=""></a>    "nationality": ["Chinese"],</span>
+<span id="cb3-94" class="hljs-ln-code"><a href=""></a>    "country": ["China", "United-States"],</span>
+<span id="cb3-95" class="hljs-ln-code"><a href=""></a>    "migration_reason": ["Professional reason"],</span>
+<span id="cb3-96" class="hljs-ln-code"><a href=""></a>    "migration_reason_details": "got a job offer",</span>
+<span id="cb3-97" class="hljs-ln-code"><a href=""></a>    "coming_with_list": [],</span>
+<span id="cb3-98" class="hljs-ln-code"><a href=""></a>    "relationship_in_switzerland_list": [],</span>
+<span id="cb3-99" class="hljs-ln-code"><a href=""></a>    "going_to_canton": ["Vaud (VD)"],</span>
+<span id="cb3-100" class="hljs-ln-code"><a href=""></a>    "concerns": ["Cost of Life in Switzerland"],</span>
+<span id="cb3-101" class="hljs-ln-code"><a href=""></a>    "estimated_arrival_date": "",</span>
+<span id="cb3-102" class="hljs-ln-code"><a href=""></a>    "estimated_staying_duration": ""</span>
+<span id="cb3-103" class="hljs-ln-code"><a href=""></a>}</span>
+<span id="cb3-104" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-105" class="hljs-ln-code"><a href=""></a>---</span>
+<span id="cb3-106" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-107" class="hljs-ln-code"><a href=""></a># Example 3</span>
+<span id="cb3-108" class="hljs-ln-code"><a href=""></a>DATE: 2020-01-20</span>
+<span id="cb3-109" class="hljs-ln-code"><a href=""></a>TITLE: From Spain, joining a friend in Switzerland for work, is it Worth it?</span>
+<span id="cb3-110" class="hljs-ln-code"><a href=""></a>AUTHOR_FLAIR: familyHey everyone, so I got a job at this awesome company that does data science, and I'm going to end up in Saint-Gall. Right now I'm looking for new projects to work on. For reference, I'm 36(m), and I wanted to know if Switzerland is a really great country — since the contract hasn't been signed yet. I would like to stay as long as possible, let say something like 5 years. If the destination looks good I would arrive the next december. Thanks, everyone!</span>
+<span id="cb3-111" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-112" class="hljs-ln-code"><a href=""></a># Response 3  </span>
+<span id="cb3-113" class="hljs-ln-code"><a href=""></a>{</span>
+<span id="cb3-114" class="hljs-ln-code"><a href=""></a>    "age": "36",</span>
+<span id="cb3-115" class="hljs-ln-code"><a href=""></a>    "sex": "Man",</span>
+<span id="cb3-116" class="hljs-ln-code"><a href=""></a>    "marital_status": "",</span>
+<span id="cb3-117" class="hljs-ln-code"><a href=""></a>    "level_of_education": "Tertiary",</span>
+<span id="cb3-118" class="hljs-ln-code"><a href=""></a>    "occupations": ["Data Scientist"],</span>
+<span id="cb3-119" class="hljs-ln-code"><a href=""></a>    "sector": ["IT"],</span>
+<span id="cb3-120" class="hljs-ln-code"><a href=""></a>    "nationality": ["Spanish"],</span>
+<span id="cb3-121" class="hljs-ln-code"><a href=""></a>    "country": ["Spain"],</span>
+<span id="cb3-122" class="hljs-ln-code"><a href=""></a>    "migration_reason": ["Professional reason"],</span>
+<span id="cb3-123" class="hljs-ln-code"><a href=""></a>    "migration_reason_details": 'got a job offer',</span>
+<span id="cb3-124" class="hljs-ln-code"><a href=""></a>    "coming_with_list": [],</span>
+<span id="cb3-125" class="hljs-ln-code"><a href=""></a>    "relationship_in_switzerland_list": ["Friends"],</span>
+<span id="cb3-126" class="hljs-ln-code"><a href=""></a>    "going_to_canton": ["Sankt Gallen (SG)"],</span>
+<span id="cb3-127" class="hljs-ln-code"><a href=""></a>    "concerns": [],</span>
+<span id="cb3-128" class="hljs-ln-code"><a href=""></a>    "estimated_arrival_date": "2020-12-01",</span>
+<span id="cb3-129" class="hljs-ln-code"><a href=""></a>    "estimated_staying_duration": "5 Years"</span>
+<span id="cb3-130" class="hljs-ln-code"><a href=""></a>}</span>
+<span id="cb3-131" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-132" class="hljs-ln-code"><a href=""></a>---</span>
+<span id="cb3-133" class="hljs-ln-code"><a href=""></a></span>
+<span id="cb3-134" class="hljs-ln-code"><a href=""></a>Here is the real text:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="data-extraction-6" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"><strong>Data extraction</strong></h2>
 <p><strong>LLMs vs SLMs</strong></p>
 <ul>
-<li class="fragment"><strong>LLMs (ChatGPT, Claude, …)</strong>
+<li><strong>LLMs (ChatGPT, Claude, …)</strong>
 <ul>
-<li class="fragment">Efficient</li>
-<li class="fragment">Cost</li>
-<li class="fragment">Not confidential</li>
+<li>Efficient</li>
+<li>Cost</li>
+<li>Not confidential</li>
 </ul></li>
-<li class="fragment"><strong>SLMs (Llama, Qwen, …)</strong>
+<li><strong>SLMs (Llama, Qwen, …)</strong>
 <ul>
-<li class="fragment">Less efficient</li>
-<li class="fragment">Free</li>
-<li class="fragment">Local (confidential)</li>
+<li>Less efficient</li>
+<li>Free</li>
+<li>Local (confidential)</li>
 </ul></li>
 </ul>
 <p><img data-src="qwen.png" class="absolute" style="top: 0px; right: 100px; "></p>
@@ -510,13 +672,17 @@ Hategekimana Vestin
 <section id="analytical-methods" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"><strong>Analytical Methods</strong></h2>
 <ul>
-<li class="fragment"><strong>Quantitative Longitudinal Analysis</strong>:
+<li><strong>Quantitative Longitudinal Analysis</strong>:
 <ul>
-<li class="fragment">Tracks <strong>migration intentions over time</strong> by aggregating data monthly and identifying key events (e.g., the <strong>COVID-19 pandemic</strong>) that influence decisions.</li>
-</ul></li>
-<li class="fragment"><strong>Qualitative Insights</strong>:
-<ul>
-<li class="fragment"><strong>Large language models (Qwen 2.5 32b)</strong> are used to extract factors influencing migration decisions from textual data.</li>
+<li>A <strong>Large language model (Qwen 3 30b)</strong> is used to extract factors influencing migration decisions from textual data.</li>
+<li><strong>Collection timing</strong>:
+<ol type="1">
+<li><strong>Initial collection</strong>: first post on Ask Switzerland</li>
+<li><strong>Longitudinal collection</strong>: from the selected subset</li>
+</ol></li>
+<li>Tracks <strong>migration intentions over time</strong> by aggregating data monthly and identifying key events (e.g., the <strong>COVID-19 pandemic</strong>) that influence decisions.<br>
+</li>
+<li><strong>Regression analysis</strong>: multilevel binomial regression on the intention to move to Switzerland over time</li>
 </ul></li>
 </ul>
 </section>
@@ -524,28 +690,643 @@ Hategekimana Vestin
 <h2 data-id="quarto-animate-title"><strong>Analytical Methods</strong></h2>
 <p><strong>Data</strong></p>
 <ul>
-<li class="fragment"><strong>Dependent variables</strong>: <strong>Migration intention to Switzerland</strong> (or elsewhere)</li>
-<li class="fragment"><strong>Life course</strong>:
+<li><strong>Dependent variables</strong>: <strong>Migration intention to Switzerland</strong> (or elsewhere)</li>
+<li><strong>Time (monthly)</strong></li>
+<li><strong>Life course</strong>:
 <ul>
-<li class="fragment"><strong>Life events</strong> (birth, death, job gain/loss, …)</li>
-<li class="fragment"><strong>Linked lives</strong> (friends, family member mention)<br>
+<li><strong>Life events</strong> (birth, death, job gain/loss, …)</li>
+<li><strong>Linked lives</strong> (friends, family member mention)<br>
 </li>
-<li class="fragment"><strong>Historical time/place</strong> (Covid-19, economic shifts)</li>
+<li><strong>Historical time/place</strong> (Covid-19, economic shifts)</li>
 </ul></li>
-<li class="fragment"><strong>Sociodemographic</strong>: (age, gender, occupation, country of origin)</li>
+<li><strong>Sociodemographic</strong>: (age, gender, occupation, country of origin)</li>
+<li><strong>Migration related variables</strong>: migration reason, migration concerns, etc.</li>
 </ul>
 </section>
 <section id="limits" class="slide level2">
 <h2><strong>Limits</strong></h2>
 <p><strong>Risky approach</strong></p>
 <ul>
-<li class="fragment"><strong>Non representative data</strong> (mostly people from United State)</li>
-<li class="fragment"><strong>Sparse data</strong> (Missing value, unstructured data)</li>
-<li class="fragment"><strong>Hard to track mobility intention</strong></li>
-<li class="fragment"><strong>LLMs/SLMs do not have 100% accuracy</strong></li>
-<li class="fragment"><strong>LLMs/SLMs are costly in terms of computation and time</strong></li>
-<li class="fragment"><strong>How to define life-course events</strong>?</li>
+<li><strong>Non representative data</strong> (mostly people from United State)</li>
+<li><strong>Sparse data</strong> (Missing values, unstructured data)</li>
+<li><strong>Hard to track mobility intention</strong></li>
+<li><strong>LLMs/SLMs do not have 100% accuracy</strong></li>
+<li><strong>LLMs/SLMs are costly in terms of computation and time</strong></li>
+<li><strong>How to define life-course events</strong>?</li>
 </ul>
+</section></section>
+<section>
+<section id="current-results-initial-collection" class="title-slide slide level1 center">
+<h1><strong>Current results: Initial collection</strong></h1>
+
+</section>
+<section id="many-missing-value" class="slide level2">
+<h2>Many missing value</h2>
+<p>We will complete the data in the longitudinal data extraction</p>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
+<section id="biased-population" class="slide level2">
+<h2>Biased population</h2>
+<p><strong>Mostly from USA and UK, and mostly educated</strong></p>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
+<section id="concerns-coming-to-switzerland" class="slide level2" data-scrollable="true">
+<h2>Concerns coming to Switzerland</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Mostly practical concerns:</p>
+</div><div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output-display">
+<div id="sfwmdendaz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#sfwmdendaz table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#sfwmdendaz thead, #sfwmdendaz tbody, #sfwmdendaz tfoot, #sfwmdendaz tr, #sfwmdendaz td, #sfwmdendaz th {
+  border-style: none;
+}
+
+#sfwmdendaz p {
+  margin: 0;
+  padding: 0;
+}
+
+#sfwmdendaz .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#sfwmdendaz .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#sfwmdendaz .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#sfwmdendaz .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#sfwmdendaz .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#sfwmdendaz .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#sfwmdendaz .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#sfwmdendaz .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#sfwmdendaz .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#sfwmdendaz .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#sfwmdendaz .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#sfwmdendaz .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#sfwmdendaz .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#sfwmdendaz .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#sfwmdendaz .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sfwmdendaz .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#sfwmdendaz .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#sfwmdendaz .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#sfwmdendaz .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sfwmdendaz .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#sfwmdendaz .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sfwmdendaz .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#sfwmdendaz .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sfwmdendaz .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sfwmdendaz .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sfwmdendaz .gt_left {
+  text-align: left;
+}
+
+#sfwmdendaz .gt_center {
+  text-align: center;
+}
+
+#sfwmdendaz .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#sfwmdendaz .gt_font_normal {
+  font-weight: normal;
+}
+
+#sfwmdendaz .gt_font_bold {
+  font-weight: bold;
+}
+
+#sfwmdendaz .gt_font_italic {
+  font-style: italic;
+}
+
+#sfwmdendaz .gt_super {
+  font-size: 65%;
+}
+
+#sfwmdendaz .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#sfwmdendaz .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#sfwmdendaz .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#sfwmdendaz .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#sfwmdendaz .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#sfwmdendaz .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#sfwmdendaz .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#sfwmdendaz .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#sfwmdendaz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="a-" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"></th>
+<th id="a-" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
+<th id="a-" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
+<th id="a-" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000"></td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000"></td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">n</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">prop</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">1</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Work/Residential Permit</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">119</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">20.3%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">2</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Cost Of Life In Switzerland</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">104</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">17.7%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">3</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Speaking Local Language</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">96</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">16.4%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">4</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Finding Accomodation</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">76</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">13.0%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">5</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Healthcare System</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">42</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">7.2%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">6</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Financing The Settlement</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">24</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">4.1%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">7</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Finding School</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">22</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">3.8%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">8</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Salary</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">22</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">3.8%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">9</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Feeling Unwelcomed</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">21</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">3.6%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">10</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Dealing With Administration</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">20</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">3.4%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">11</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Financing The Move</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">17</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">2.9%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">12</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Feeling Lonely</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">8</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">1.4%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">13</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Politics</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">7</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">1.2%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">14</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Finding Childcare</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">3</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">0.5%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">15</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Finding Accommodation</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">2</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">0.3%</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">16</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Tax Reason</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">2</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">0.3%</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers=" " style="background-color: #FFFFFF; color: #000000">17</td>
+<td class="gt_row gt_left" headers="  " style="background-color: #FFFFFF; color: #000000">Feeling Homesick</td>
+<td class="gt_row gt_left" headers="   " style="background-color: #FFFFFF; color: #000000">1</td>
+<td class="gt_row gt_left" headers="    " style="background-color: #FFFFFF; color: #000000">0.2%</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="next-steps" class="title-slide slide level1 center">
+<h1>Next steps</h1>
+
+</section>
+<section id="next-steps-1" class="slide level2">
+<h2>Next steps</h2>
+<ol type="1">
+<li><strong>Complete missing values</strong> with the longitudinal data</li>
+<li>Compare period pre and post-covid</li>
+<li>Explore the <strong>evolution of mobility intention</strong> and success over time (regression)</li>
+<li>Contact a subset of user for an <strong>online qualitative interview</strong></li>
+</ol>
 </section></section>
 <section>
 <section id="thank-you-for-your-attention" class="title-slide slide level1 center">
@@ -869,190 +1650,172 @@ Wanner, Philippe. 2021. <span>“Can <span>Migrants</span>’ <span>Emigration</
     
 
     <script id="quarto-html-after-body" type="application/javascript">
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-      const toggleBodyColorMode = (bsSheetEl) => {
-        const mode = bsSheetEl.getAttribute("data-mode");
-        const bodyEl = window.document.querySelector("body");
-        if (mode === "dark") {
-          bodyEl.classList.add("quarto-dark");
-          bodyEl.classList.remove("quarto-light");
-        } else {
-          bodyEl.classList.add("quarto-light");
-          bodyEl.classList.remove("quarto-dark");
-        }
-      }
-      const toggleBodyColorPrimary = () => {
-        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-        if (bsSheetEl) {
-          toggleBodyColorMode(bsSheetEl);
-        }
-      }
-      toggleBodyColorPrimary();  
-      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
-      tabsets.forEach(function(tabset) {
-        const tabby = new Tabby('#' + tabset.id);
-      });
-      const isCodeAnnotation = (el) => {
-        for (const clz of el.classList) {
-          if (clz.startsWith('code-annotation-')) {                     
-            return true;
-          }
-        }
-        return false;
-      }
-      const onCopySuccess = function(e) {
-        // button target
-        const button = e.trigger;
-        // don't keep focus
-        button.blur();
-        // flash "checked"
-        button.classList.add('code-copy-button-checked');
-        var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
-        let tooltip;
-        if (window.bootstrap) {
-          button.setAttribute("data-bs-toggle", "tooltip");
-          button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
-          tooltip = new bootstrap.Tooltip(button, 
-            { trigger: "manual", 
-              customClass: "code-copy-button-tooltip",
-              offset: [0, -8]});
-          tooltip.show();    
-        }
-        setTimeout(function() {
-          if (tooltip) {
-            tooltip.hide();
-            button.removeAttribute("data-bs-title");
-            button.removeAttribute("data-bs-toggle");
-            button.removeAttribute("data-bs-placement");
-          }
-          button.setAttribute("title", currentTitle);
-          button.classList.remove('code-copy-button-checked');
-        }, 1000);
-        // clear code selection
-        e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
             }
           }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
-      });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          return false;
         }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
             }
-          }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
         }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-        const config = {
-          allowHTML: true,
-          maxWidth: 500,
-          delay: 100,
-          arrow: false,
-          appendTo: function(el) {
-              return el.closest('section.slide') || el.parentElement;
-          },
-          interactive: true,
-          interactiveBorder: 10,
-          theme: 'light-border',
-          placement: 'bottom-start',
-        };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
-          config['offset'] = [0,0];
-          config['maxWidth'] = 700;
-        window.tippy(el, config); 
-      }
-      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-      for (var i=0; i<noterefs.length; i++) {
-        const ref = noterefs[i];
-        tippyHover(ref, function() {
-          // use id or data attribute instead here
-          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-          try { href = new URL(href).hash; } catch {}
-          const id = href.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
-        });
-      }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
-          }
-        } else {
-          return undefined;
-        }
-      };
-      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-      for (var i=0; i<bibliorefs.length; i++) {
-        const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
               }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
           });
         }
-      }
-    });
-    </script>
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
     
 
 </body></html>

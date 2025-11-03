@@ -4,11 +4,11 @@ authors:
   - name: "Hategekimana Vestin" 
     affiliation: "University of Geneva"
     email: "vestin.hategekimana@unige.ch"
-subtitle: https://cyuhat.github.io/mobility_intention_reddit/#/title-slide
+subtitle: https://cyuhat.github.io/mobility_intention_reddit
 format: 
   clean-revealjs:
     transition: slide
-    incremental: true
+    incremental: false
     logo: logo.png
   pptx: default
   docx: default
@@ -37,15 +37,21 @@ nocite: |
 
 ## Migration intention {auto-animate="true"}
 
+Let's imagine an individual...
+
 ![](stickman.svg){.absolute height=500 left=300}
 
 ## Migration intention {auto-animate="true"}
+
+... that want to move to Switzerland
 
 ![](stickman.svg){.absolute height=400 left=0}
 
 ![](switzerland.png){.absolute height=350 right=0}
 
 ## Migration intention {auto-animate="true"}
+
+Does the intention to move vary over time?
 
 ![](stickman.svg){.absolute height=400 left=0}
 
@@ -53,7 +59,7 @@ nocite: |
 
 ![](time-series.svg){.absolute left=230 top=400}
 
-## Migration intention {auto-animate="true"}
+## Migration intention isn't always predictible {auto-animate="true"}
 **2 years after:**
 
   - 70% indeed emigrated (Wanner, 2021)
@@ -71,6 +77,9 @@ nocite: |
   - ...
 
 ## **Research context** {auto-animate="true"}
+
+Many factors have an impact in the mobility intention:
+
 - **Demographic scope** (Findlay et al., 2015):  
   - Age groups, gender, family statuses, migrant groups, ...
 - **Life course** (Horowitz & Entwisle, 2021).:
@@ -81,27 +90,27 @@ nocite: |
   - **Timing of lives** (age-related migration patterns)
 
 ## **Research context** {auto-animate="true"}
-- **Traditional methods are limited**
+- **Traditional methods have their limitations**
   - **Quantitatives studies**:
-    - Despite the longitudinal approach
-    - Focus on few specific life event.
+    - Focus on few specific life events
+    - Focus on rare Geo-localized data
   - **Qualitative studies**: 
     - Despite the richness of the analysis
     - Usage of small samples
+- **New data sources are available**
   - **Social media data** (Sîrbu et al., 2021)
     - Big Data
     - Textual data + Metadata
   
 ## **Methodological innovation**  
-- **Why this study is unique**:  
+- **Why is this study unique in migration research?**:  
   - **Longitudinal Data**: Tracks individuals’ journeys over **4 years** (2 years before/after relocation decisions).  
-  - **Mixed Methods**: Combines large language models (for data extraction) with longitudinal multilevel (for interpretive insights). 
-    - **Today: Quantitative part**
+  - **Mixed Methods**: Combines large language models (for data extraction) with longitudinal multilevel regression (for interpretive insights). Then interview will be conducted with a subset of the sample
   - **Use of Reddit**: Captures **nuanced, unfiltered narratives** from users who express relocation intentions.
   
 ## **Reddit**
 ### https://backlinko.com/reddit-users
-**What?**
+**What is it?**
 
 - Social media
 
@@ -124,30 +133,30 @@ nocite: |
   - Enables analysis of how **personal circumstances, policies, and crises** (e.g., pandemic) dynamically shape migration decisions.  
 
 - **Ethical and accessibility benefits**:  
-  - Reddit’s **anonymity** and **accessible API** reduce ethical concerns compared to traditional methods (e.g., surveys).  
+  - Reddit’s **anonymity** and **accessible API for researchers** reduce ethical concerns compared to traditional methods (e.g., surveys).  
 
 - **Novel use of non-official APIs (Application Programming Interface)**:  
-  - The **PullPush API** facilitates comprehensive data collection over extended periods, a rarity in migration studies.
+  - The **PullPush API** facilitates comprehensive data collection over extended periods.
 
 ## **Key objectives**  
 - **Primary goal**:  
-  - Map the **temporal progression** of migration intention using data from Reddit’s *r/AskSwitzerland*.  
+  - Map the **temporal progression of migration intention** using data from Reddit’s *r/AskSwitzerland*.  
   - Highlight the **impact of Covid-19** in migration intention
 - **Side objectives**:  
-  - Show that **Reddit data** are valuable
-  - Show that **SLMs (Small Language Models)** are valuable tools for data extraction
-  - Show that **the Julia programming language** is a valuable programming language for social scientist
+  - Show that **Reddit data are valuable for migration studies**
+  - Show that local **SLMs (Small Language Models) are valuable tools for data extraction**
+  - Show that **the Julia programming language is a valuable** programming language for **social scientists**
 
 # Method
 
-## **Data Source: Reddit and r/AskSwitzerland**  
+## **Data Source: Reddit and r/AskSwitzerland** {auto-animate="true"}
 
 ![](askswitzerland.png)
 
-## **Data Source: Reddit and r/AskSwitzerland**  
+## **Data Source: Reddit and r/AskSwitzerland** {auto-animate="true"} 
 - **Platform Choice**:  
   - Reddit is used as a primary source due to its **rich textual data** and **community-driven discussions** about migration.  
-  - The subreddit **r/AskSwitzerland** is specifically targeted, as it is a hub for users seeking information about living in Switzerland and expressing relocation intentions.  
+  - The subreddit **r/AskSwitzerland** is specifically targeted, as it is a hub for users seeking information **about living in Switzerland and expressing relocation intentions**.  
 
 - **Non-Official API (PullPush)**:  
   - Utilizes the **PullPush API** to collect longitudinal data, enabling **long-term tracking** of user behavior and migration intentions.  
@@ -162,26 +171,30 @@ nocite: |
 
 ---
 
-## **Data collection**  
+## **Data collection**  {auto-animate="true"}
+
 - **Three-stage approach**:  
-  1. **Initial collection (2018–2020)**:  
-     - Posts containing keywords like *“Relocation,” “Migration,” “Mobility,”* or *“Living in Switzerland”* are gathered.  
+  1. **Initial collection (2016–2021)**:  
+     - Posts containing keywords like [*“Relocation,” “Migration,” “Mobility,”*]{.mark} or [*“Living in Switzerland”*]{.mark} are gathered.  
   2. **Filtering**:  
      - Posts are filtered to retain only those expressing **genuine intent to move to Switzerland**.  
   3. **Saving user name**:  
      - A list of user name is saved in a database.
 
-## **Data extraction**
+## **Data extraction** {auto-animate="true"}
 
 - **Three-stage approach**:
-  1. **User's comment history (2nd data collection)**:
+  1. **Users' comment history (2nd data collection)**:
     - Collecting user's comment history 2 years before and after the migration intention
+    - Removing people who posted only once (**current sample size: 669**)
   2. **Monthly comment aggregation**:
-    - The time unit is monthly so the comment are join this way
+    - The time unit is monthly so the comment are joined this way
   3. **SLMs data extraction**:
-    - Using a small language model specific information will be extracted
+    - Using a small language model, specific information will be extracted
 
 ## **Data extraction** {auto-animate="true"}
+
+Using a Large Language Model (LLM) or a Small Language Model (SLM)?
 
 ![https://www.techradar.com/computing/artificial-intelligence/best-llms](official-llms.jpg)
 
@@ -191,23 +204,29 @@ nocite: |
 # https://www.techradar.com/computing/artificial-intelligence/best-llms
 ```
 
+LLMs have many use cases... data extraction is one of them!
+
 ![](6-llms-use-cases.png){.absolute right=200 height=600}
 
 ## **Data extraction** {auto-animate="true"}
 
+**From unstructured text to JSON format (LLMs are good for that!)**
+
 ::: {.columns}
 ::: {.column width="50%"}
 "Hey everyone,
-I **(f28)** and my **husband (h28)** been dreaming of moving to Switzerland because I've received an exciting **job offer** from a tech company based there. The role involves developing innovative software solutions and working with a talented team, which aligns perfectly with my career goals."
+I **(f28)** and my **husband (h28)** have been dreaming of moving to Switzerland because I've received an exciting **job offer** from a tech company based there. The role involves developing innovative software solutions and working with a talented team, which aligns perfectly with my career goals."
 :::
 
 ::: {.column width="50%"}
 ```text
-Extract the following information of the poster 
-in a JSON format: poster age, poster sex, 
-migration reason [job, family], coming from, 
-marital status, social network.
+Prompt: Extract the following information of 
+the user in a JSON format: user age, 
+user sex, migration reason [job, family], 
+coming from, marital status, social network.
 ```
+
+Result
 
 ```json
 {
@@ -221,6 +240,160 @@ marital status, social network.
 ```
 :::
 :::
+
+## **Data extraction** {auto-animate="true"}
+
+**Some advanced prompting is needed:**
+
+  - Role given to the model: Labeling Expert
+  - Detailed description of variables we are looking for
+  - Restricted value list per variable given
+  - A few shots example (questions and expected answers) to guide the model
+
+**Result**
+
+  - +100 lines long prompt with 3 examples
+  
+## **Data extraction**  {auto-animate="true"}
+
+**The full prompt:**
+
+```texts
+/nothink You are a labeling expert specialized in extracting data from Reddit 
+posts. Your goal is to extract relevant socio-demographic data from a given
+Reddit post. Please extract the data in valid JSON format, following this 
+schema:
+
+{
+	"age": "",
+	"sex": "",
+	"marital_status": "",
+	"level_of_education": "",
+	"occupations": [],
+	"sector": [],
+	"nationality": [],
+	"country": [],
+	"migration_reason": [],
+	"migration_reason_details": "",
+	"coming_with_list": [],
+	"relationship_in_switzerland_list": [],
+	"going_to_canton": [],
+	"concerns": [],
+	"estimated_arrival_date": "",
+	"estimated_staying_duration": ""
+}
+
+here is the detail of what each key can have as a value:
+
+age: from 1 to 100,
+sex: one of [Man, Woman],
+marital status: one or many of [Single, In Relationship, Married, Divorced],
+level_of_education: one of [Primary, Secondary, Tertiary],
+occupation: can be any type of employement,
+sector: which sector is the employement,
+nationality: which nationality,
+country: which country,
+migration_reason: one or many of [Professional reason, Educational, Start a family, Accompany family, Life style Reason, Gain new experience, Social Network in Switzerland, Tax reason, Political reason, Other reason],
+migration_reason_details: details what is said in the text,
+coming_with_list: one or many of [Partner, Parents, Children, Friends, Colleagues, Other People],
+relationship_in_switzerland_list: [Partner, Parents, Children, Friends, Colleagues, Other People],
+going_to_canton: One of [Zürich (ZH), Bern (BE), Luzern (LU), Uri (UR), Schwyz (SZ), Obwalden (OW), Nidwalden (NW)), Glarus (GL), Zug (ZG), Freiburg (FR), Solothurn (SO), Basel Stadt (BS), Basel Land (BL), Schaffhausen (SH), Appenzell Ausserrhoden (AR), Appenzell Innerrhoden (AI), Sankt Gallen (SG), Graubünden (GR), Aargau (AG), Thurgau (TG), Ticino (TI), Vaud (VD), Valais (VS), Neuchâtel (NE), Genève (GE), Jura (JU)],
+concerns: [Financing the move, Financing the settlement, Finding Accomodation, Finding Childcare, Finding School, ealing with Administration, Speaking Local Language, Feeling Lonely, Feeling Homesick, Feeling Unwelcomed, Cost of Life in Switzerland, Work/Residential Permit, Healthcare System, Politics, Salary],
+estimated_arrival_date: give an estimated date in the Following format yyyy-mm-dd and floor it if it is unsure and chose the earliest option,
+estimated_staying_duration: give an estimation in years
+
+If the information for a given key is not available, just return an empty string ("") or an empty list ([]). Do not answer anything else than the json. Here are some examples:
+
+---
+
+# Example 1
+DATE: 2019-02-04
+TITLE: Arrival to Switzerland on March, what to do?
+AUTHOR_FLAIR: family
+TEXT: Hey everyone, so I'm (f39) an IT professional who just got a promotion that allows me to move to Switzerland. So I'm coming from Germany, and I know that Switzerland and Germany are pretty similar in many ways. In fact, I'm moving because I'm coming with my spouse (31) and my two kids (12 and 17). I'd like to know if it's possible to settle in Switzerland easily. So I have some questions about schools because I want to enroll my kids in school. I also have questions about what comes next, especially regarding healthcare.  And basically, I wanted to know if it's possible to earn a good salary in Switzerland.  
+That's it.
+Thanks in advance!
+
+# Response 1  
+{
+	"age": "39",
+	"sex": "Woman",
+	"marital_status": "Relationship",
+	"level_of_education": "Tertiary",
+	"occupations": ["IT professional"],
+	"sector": ["IT"],
+	"nationality": ["German"],
+	"country": ["Germany"],
+	"migration_reason": ["Professional reason", "Gain new experience"],
+	"migration_reason_details": "Just got a promotion",
+	"coming_with_list": ["Partner", "Children"],
+	"relationship_in_switzerland_list": [],
+	"going_to_canton": [],
+	"concerns": ["Finding school", "Healthcare system", "Salary"],
+	"estimated_arrival_date": "",
+	"estimated_staying_duration": ""
+}
+
+---
+
+# Example 2
+DATE: 2018-05-19
+TITLE: 22M in Philosophy
+AUTHOR_FLAIR: family
+TEXT: Hey everyone, I'm a Harvard student, originally from China, but I've been living in the US for now. I actually got a job offer that allows me to move to Switzerland, and I'd really like to know how to get a student permit there. The problem is, all the documentation I find is either unreadable or inaccessible. I also want to know how expensive life in Switzerland is — I know it's already pretty pricey in the US, and now if I move to Switzerland, how is it going to go down? For reference, I'll be in the canton of Vaud, more specifically in Lausanne. Can anyone tell me what it's like there?
+
+# Response 2
+  
+{
+	"age": "22",
+	"sex": "Man",
+	"marital_status": "",
+	"level_of_education": "Tertiary",
+	"occupations": ["Student"],
+	"sector": ["Education"],
+	"nationality": ["Chinese"],
+	"country": ["China", "United-States"],
+	"migration_reason": ["Professional reason"],
+	"migration_reason_details": "got a job offer",
+	"coming_with_list": [],
+	"relationship_in_switzerland_list": [],
+	"going_to_canton": ["Vaud (VD)"],
+	"concerns": ["Cost of Life in Switzerland"],
+	"estimated_arrival_date": "",
+	"estimated_staying_duration": ""
+}
+
+---
+
+# Example 3
+DATE: 2020-01-20
+TITLE: From Spain, joining a friend in Switzerland for work, is it Worth it?
+AUTHOR_FLAIR: familyHey everyone, so I got a job at this awesome company that does data science, and I'm going to end up in Saint-Gall. Right now I'm looking for new projects to work on. For reference, I'm 36(m), and I wanted to know if Switzerland is a really great country — since the contract hasn't been signed yet. I would like to stay as long as possible, let say something like 5 years. If the destination looks good I would arrive the next december. Thanks, everyone!
+
+# Response 3  
+{
+	"age": "36",
+	"sex": "Man",
+	"marital_status": "",
+	"level_of_education": "Tertiary",
+	"occupations": ["Data Scientist"],
+	"sector": ["IT"],
+	"nationality": ["Spanish"],
+	"country": ["Spain"],
+	"migration_reason": ["Professional reason"],
+	"migration_reason_details": 'got a job offer',
+	"coming_with_list": [],
+	"relationship_in_switzerland_list": ["Friends"],
+	"going_to_canton": ["Sankt Gallen (SG)"],
+	"concerns": [],
+	"estimated_arrival_date": "2020-12-01",
+	"estimated_staying_duration": "5 Years"
+}
+
+---
+
+Here is the real text:
+```
 
 ## **Data extraction** {auto-animate="true"}
 
@@ -240,10 +413,12 @@ marital status, social network.
 
 ## **Analytical Methods**  {auto-animate="true"}
 - **Quantitative Longitudinal Analysis**:  
+  - A **Large language model (Qwen 3 30b)** is used to extract factors influencing migration decisions from textual data. 
+  - **Collection timing**:
+    1. **Initial collection**: first post on Ask Switzerland
+    2. **Longitudinal collection**: from the selected subset
   - Tracks **migration intentions over time** by aggregating data monthly and identifying key events (e.g., the **COVID-19 pandemic**) that influence decisions.  
-
-- **Qualitative Insights**:  
-  - **Large language models (Qwen 2.5 32b)** are used to extract factors influencing migration decisions from textual data.  
+  - **Regression analysis**: multilevel binomial regression on the intention to move to Switzerland over time
   
 ---
 
@@ -251,25 +426,185 @@ marital status, social network.
 **Data**
 
 - **Dependent variables**: **Migration intention to Switzerland** (or elsewhere)
+- **Time (monthly)**
 - **Life course**:
   - **Life events** (birth, death, job gain/loss, ...)
   - **Linked lives** (friends, family member mention)  
   - **Historical time/place** (Covid-19, economic shifts)
 
 - **Sociodemographic**: (age, gender, occupation, country of origin)
+- **Migration related variables**: migration reason, migration concerns, etc.
 
 ## **Limits**
 
 **Risky approach**
 
 - **Non representative data** (mostly people from United State)
-- **Sparse data** (Missing value, unstructured data)
+- **Sparse data** (Missing values, unstructured data)
 - **Hard to track mobility intention**
 - **LLMs/SLMs do not have 100% accuracy**
 - **LLMs/SLMs are costly in terms of computation and time**
 - **How to define life-course events**?
 
-# Thank you for your attention!
+# **Current results: Initial collection**
 
+```{r}
+#| message: false
+#| warning: false
+# Libraries ----
+library(tidyverse)
+library(mmtable2)
+library(gt)
+library(naniar)
+
+# Options----
+get_the_top <- function(df, var, multi=FALSE, sep = ", "){
+  if(multi){
+    df %>% 
+      select({{var}}) %>% 
+      separate_rows({{var}}, sep=", ") %>%
+      count({{var}}, sort = TRUE) %>% 
+      filter({{var}}!="")
+  } else {
+    df %>% 
+      select({{var}}) %>% 
+      count({{var}}, sort = TRUE) %>% 
+      filter({{var}}!="")
+  }
+}
+
+# Data ----
+qwen3_30b <- 
+  read_rds("mydata/qwen3_30b.rds") %>% 
+  mutate(across(everything(), ~if_else(.x=="", NA, .x)))
+```
+
+
+## Many missing values
+
+We will complete the data in the longitudinal data extraction
+
+```{r}
+gg_miss_var(qwen3_30b, show_pct = TRUE) +
+  labs(
+    title = "Proportion of missing value for each variable",
+    subtitle = "Sample: 669"
+  )
+```
+
+## Biased population
+
+**Mostly from USA and UK, and mostly educated**
+
+```{r}
+#| warning: false
+#| message: false
+country_count <- 
+  qwen3_30b %>% 
+  mutate(
+    country = if_else(
+      str_detect(country, ", "), 
+      str_split_i(country, ", ", 1),
+      country
+      ),
+    country = str_replace(country, "United(-|\\s)States", "USA"),
+    country = str_replace(country, "United(-|\\s)Kingdom", "UK"),
+    country = str_replace(country, "Czechia", "Czech Republic")
+  ) %>% 
+  get_the_top(country) %>% 
+  rename(region = country)
+
+world <-  
+  map_data("world") %>% 
+  left_join(
+    country_count
+  ) %>% 
+  mutate(
+    n = if_else(is.na(n), 0, n)
+  )
+
+# World map
+ggplot() +
+  geom_map(
+    data = world, map = world,
+    aes(
+      long, lat, map_id = region, 
+      fill = n
+      ),
+    color = "white"
+  ) +
+  lims(
+    y = c(-50, 80),
+    x = c(-160, 180)
+  ) +
+  scale_fill_gradient(
+    low = "grey",
+    high = "#FF4500"
+  ) +
+  labs(
+    title = "Country of origin of redditors planning to move to Switzerland",
+    subtitle = "Top 3: United States (73), UK (54), Germany (31)"
+  ) +
+  theme_void()
+```
+
+## Concerns coming to Switzerland {scrollable="true"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Mostly practical concerns:
+
+:::
+
+::: {.column width="50%"}
+
+```{r}
+concerns <- 
+  qwen3_30b %>% 
+  mutate(
+    concerns = str_to_lower(concerns),
+    concerns = str_replace_all(concerns, "\\bealing", "dealing")
+  ) %>% 
+  # print(n = 200)
+  get_the_top(concerns, multi = TRUE) %>% 
+  mutate(
+    prop = scales::percent((n/sum(n)), accuracy = 0.1),
+  ) %>% 
+  mutate(
+    title = "Redditors' concerns",
+    n = as.character(n)
+    ) %>% 
+  pivot_longer(
+    n:prop,
+    values_to = "val", 
+    names_to = "var"
+  ) %>% 
+  mutate(
+    rank = consecutive_id(concerns),
+    concerns = str_to_title(concerns)
+  )
+
+mmtable(concerns, cells = val) +
+  header_left_top(concerns) +
+  header_left(rank) +
+  header_top(var)
+```
+
+:::
+
+::::
+
+# Next steps
+
+## Next steps
+
+1. **Complete missing values** with the longitudinal data
+2. Compare period pre and post-covid
+3. Explore the **evolution of mobility intention** and success over time (regression)
+4. Contact a subset of user for an **online qualitative interview**
+
+# Thank you for your attention!
 
 ## **Sources**
